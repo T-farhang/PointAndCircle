@@ -82,7 +82,7 @@ public class Circle {
         return 2 * Math.PI * radius;
     }
 
-    // It's a method that shows if two circles interrupt eachother.
+    // It's a method that shows if two circles interrupt each other.
     public void areInterrupt(Circle other) {
         double x = this.center.distance(other.center);
         if (x / 2 <= this.radius && x / 2 <= other.radius) {
